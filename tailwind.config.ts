@@ -8,12 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-fragment-mono)", "Menlo", "monospace"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent: "#09f",
+        muted: "#666",
+        faint: "#999",
+        surface: "#fafafa",
+        border: "#e5e5e5",
+        "border-dark": "#d4d4d4",
+      },
+      maxWidth: {
+        container: "1000px",
+      },
+      letterSpacing: {
+        tight: "-0.03em",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
