@@ -16,6 +16,7 @@ const fragmentMono = Fragment_Mono({
   display: "swap",
 });
 
+
 export const metadata: Metadata = {
   title: "Ben Ashir Georges — Full-Stack Engineer",
   description:

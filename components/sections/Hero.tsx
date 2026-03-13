@@ -63,7 +63,7 @@ export default function Hero() {
           </div>
         </motion.div>
 
-      {/* Status grid */}
+        {/* Status grid */}
         <motion.div
           {...fadeUp(0.3)}
           className="w-full max-w-[680px] grid grid-cols-2 sm:grid-cols-4 gap-4 mb-4"
@@ -164,7 +164,6 @@ export default function Hero() {
             vex0207@hotmail.com ↗
           </a>
         </motion.div>
-
 
       </div>
     </section>
