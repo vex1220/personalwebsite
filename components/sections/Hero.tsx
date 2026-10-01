@@ -47,7 +47,7 @@ const STATUS_ITEMS: { label: string; node: React.ReactNode }[] = [
       </>
     ),
   },
-  { label: "Education", node: "FSU · CS + Business Analytics" },
+  { label: "Education", node: "FSU · CS + General Business" },
 ];
 
 export default function Hero() {
@@ -114,7 +114,7 @@ export default function Hero() {
         >
           <p>
             My name is Ben Ashir Smith Georges. I am a Senior Computer Science student
-            at Florida State University, minoring in Business Analytics. My
+            at Florida State University, minoring in General Business. My
             journey in technology is driven by a relentless curiosity and a
             desire to build systems that are as aesthetically profound as they
             are technically rigorous.

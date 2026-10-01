@@ -111,7 +111,7 @@ export default function Experience() {
                   Florida State University
                 </p>
                 <p className="text-sm text-[#666] mt-0.5">
-                  B.S. Computer Science · Minor: Business Analytics
+                  Computer Science · Minor: General Business
                 </p>
               </div>
               <p className="font-mono text-xs text-[#999]">
