@@ -14,7 +14,7 @@ function fadeUp(delay: number) {
 }
 
 const STATUS_ITEMS: { label: string; node: React.ReactNode }[] = [
-  { label: "Status", node: "Open to 2026 roles" },
+  { label: "Status", node: "System Engineer I at Raytheon" },
   { label: "Based in", node: "Tallahassee, FL" },
   {
     label: "Currently",
