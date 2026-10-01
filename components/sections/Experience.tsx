@@ -1,6 +1,14 @@
 import ScrollReveal from "@/components/ui/ScrollReveal";
+import { cn } from "@/lib/utils";
 
 const JOBS = [
+  {
+    company: "Raytheon | Collins Aerospace",
+    role: "System Engineer I",
+    period: "Jan 2027 – Present",
+    location: "7041 22nd Ave N, St Petersburg, FL 33710",
+    points: [],
+  },
   {
     company: "NWF Health Network",
     role: "Contract Intern",
@@ -75,7 +83,12 @@ export default function Experience() {
           {JOBS.map((job, i) => (
             <ScrollReveal key={job.company} delay={i * 0.07}>
               <div className="card-dashed p-6 md:p-8">
-                <div className="flex flex-wrap items-start justify-between gap-2 mb-4">
+                <div
+                  className={cn(
+                    "flex flex-wrap items-start justify-between gap-2",
+                    job.points.length > 0 && "mb-4"
+                  )}
+                >
                   <div>
                     <p className="font-medium text-black">{job.role}</p>
                     <p className="text-sm text-[#666] mt-0.5">
@@ -86,17 +99,19 @@ export default function Experience() {
                     {job.period}
                   </p>
                 </div>
-                <ul className="space-y-1.5">
-                  {job.points.map((point) => (
-                    <li
-                      key={point}
-                      className="text-sm text-[#666] flex items-start gap-3"
-                    >
-                      <span className="mt-[7px] w-1 h-1 rounded-full bg-[#d4d4d4] flex-shrink-0" />
-                      {point}
-                    </li>
-                  ))}
-                </ul>
+                {job.points.length > 0 && (
+                  <ul className="space-y-1.5">
+                    {job.points.map((point) => (
+                      <li
+                        key={point}
+                        className="text-sm text-[#666] flex items-start gap-3"
+                      >
+                        <span className="mt-[7px] w-1 h-1 rounded-full bg-[#d4d4d4] flex-shrink-0" />
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </ScrollReveal>
           ))}
