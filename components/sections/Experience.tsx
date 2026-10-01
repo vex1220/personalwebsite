@@ -115,7 +115,7 @@ export default function Experience() {
                 </p>
               </div>
               <p className="font-mono text-xs text-[#999]">
-                Expected Aug 2026
+                2022 – 2026
               </p>
             </div>
 
