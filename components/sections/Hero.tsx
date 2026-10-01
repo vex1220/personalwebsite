@@ -14,7 +14,22 @@ function fadeUp(delay: number) {
 }
 
 const STATUS_ITEMS: { label: string; node: React.ReactNode }[] = [
-  { label: "Status", node: "System Engineer I at Raytheon" },
+  {
+    label: "Status",
+    node: (
+      <>
+        System Engineer I at{" "}
+        <a
+          href="https://careers.rtx.com/global/en/collins-aerospace"
+          target="_blank"
+          rel="noreferrer"
+          className="text-[#09f] no-underline hover:opacity-70 transition-opacity"
+        >
+          Raytheon
+        </a>
+      </>
+    ),
+  },
   { label: "Based in", node: "Tallahassee, FL" },
   {
     label: "Currently",
@@ -129,10 +144,10 @@ export default function Hero() {
             operational efficiency and user experience.
           </p>
           <p>
-            I am currently seeking opportunities where I can apply my
-            quantitative intelligence and systems-engineering mindset to solve
-            high-stakes problems. I don&apos;t just want to build software; I
-            want to engineer the future—one line of code at a time.
+            I am an incoming System Engineer I at Raytheon, where I will apply
+            my quantitative intelligence and systems-engineering mindset to
+            solve high-stakes problems. I don&apos;t just want to build
+            software; I want to engineer the future—one line of code at a time.
           </p>
         </motion.div>
 
