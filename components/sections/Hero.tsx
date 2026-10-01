@@ -30,7 +30,7 @@ const STATUS_ITEMS: { label: string; node: React.ReactNode }[] = [
       </>
     ),
   },
-  { label: "Based in", node: "Tampa, FL and Naples, FL" },
+  { label: "Based in", node: "Tampa, FL" },
   {
     label: "Currently",
     node: (

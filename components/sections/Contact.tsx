@@ -148,7 +148,7 @@ export default function Contact() {
 
       <div className="max-w-container mx-auto mt-20 pt-8 border-t border-[#f0f0f0] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <p className="text-sm text-[#999]">
-          Ben Ashir Georges · Tallahassee, FL
+          Ben Ashir Georges · Tampa, FL
         </p>
       </div>
     </section>
