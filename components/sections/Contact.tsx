@@ -51,8 +51,8 @@ export default function Contact() {
               {"Let's work together."}
             </h2>
             <p className="text-base text-[#666] leading-relaxed max-w-sm mb-10">
-              Currently a System Engineer I at Raytheon. If you have a project
-              or opportunity in mind, reach out.
+              Incoming System Engineer I at Raytheon. If you have a project or
+              opportunity in mind, reach out.
             </p>
 
             <div className="space-y-4">
